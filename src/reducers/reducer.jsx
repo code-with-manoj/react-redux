@@ -1,4 +1,4 @@
-const initialValue = 0;
+const initialValue = 100;
 const Reducer = (state = initialValue, action) => {
   switch (action.type) {
     case "Inc":
